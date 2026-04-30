@@ -23,7 +23,6 @@
   <Requires/>
   <Config Name="Web Port" Target="PORT" Default="3000" Mode="" Description="Default HTTPS port.  Redirect HTTP-&amp;gt;HTTPS is PORT+1 (i.e. 3001 if Web Port is 3000)" Type="Variable" Display="always" Required="true" Mask="false">3000</Config>
   <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/haven" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/haven</Config>
-  <Config Name="HTTP -&amp;gt; HTTPS redirect" Target="3001" Default="3001" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">3001</Config>
   <Config Name="SERVER_NAME" Target="SERVER_NAME" Default="" Mode="" Description="Name shown in the UI" Type="Variable" Display="always" Required="true" Mask="false">My Haven</Config>
   <Config Name="ADMIN_USERNAME" Target="ADMIN_USERNAME" Default="" Mode="" Description="First account to register becomes admin" Type="Variable" Display="always" Required="true" Mask="false">admin</Config>
   <Config Name="GIPHY_API_KEY" Target="GIPHY_API_KEY" Default="" Mode="" Description="Optional: enable GIF search" Type="Variable" Display="always" Required="false" Mask="false"/>
