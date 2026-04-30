@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/ancsemi/Haven/issues</Support>
+  <Support>https://forums.unraid.net/topic/198511-support-tylan-haven/</Support>
   <Project>https://github.com/ancsemi/Haven</Project>
   <ReadMe/>
   <Overview>Haven is a self-hosted Discord alternative. Run it on your machine. Invite friends with a code. No cloud. No email signup. No tracking. Free forever.</Overview>
