@@ -24,12 +24,12 @@
   <Config Name="Main HTTPS Port" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
   <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/haven" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/haven</Config>
   <Config Name="HTTP -&amp;gt; HTTPS redirect" Target="3001" Default="3001" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">3001</Config>
-  <Config Name="SERVER_NAME" Target="Name shown in the UI" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">My Haven</Config>
-  <Config Name="ADMIN_USERNAME" Target="" Default="" Mode="" Description="First account to register becomes admin" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="GIPHY_API_KEY" Target="" Default="" Mode="" Description="Optional: enable GIF search" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VAPID_EMAIL" Target="mailto:you@example" Default="" Mode="" Description="Optional: email for push notifications" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="TURN_URL" Target="turn:your-server:3478" Default="" Mode="" Description="Optional: TURN relay for voice over internet" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="TURN_SECRET" Target="your-secret" Default="" Mode="" Description="Shared secret (coturn --use-auth-secret)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="SERVER_NAME" Target="SERVER_NAME" Default="" Mode="" Description="Name shown in the UI" Type="Variable" Display="always" Required="true" Mask="false">My Haven</Config>
+  <Config Name="ADMIN_USERNAME" Target="ADMIN_USERNAME" Default="" Mode="" Description="First account to register becomes admin" Type="Variable" Display="always" Required="true" Mask="false">admin</Config>
+  <Config Name="GIPHY_API_KEY" Target="GIPHY_API_KEY" Default="" Mode="" Description="Optional: enable GIF search" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="VAPID_EMAIL" Target="VAPID_EMAIL" Default="" Mode="" Description="Optional: email for push notifications" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="TURN_URL" Target="TURN_URL" Default="" Mode="" Description="Optional: TURN relay for voice over internet (turn:your-server:3478)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Host Key 8" Target="TURN_SECRET" Default="" Mode="" Description="Shared secret (coturn --use-auth-secret)" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">100</Config>
   <Config Name="TailScale Fallback State Directory" Target="CA_TS_FALLBACK_DIR" Default="/app/backend/data" Mode="{3}" Description="Fallback container directory for tailscale state information - Added By Community Applications" Type="Variable" Display="advanced" Required="{7}" Mask="{8}">/data</Config>
