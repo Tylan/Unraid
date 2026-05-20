@@ -21,7 +21,7 @@
   <DonateText>If you like an app, please donate to the respective developers; I'm just writing XML files over here. But if you have some change to spare afterwards, maybe chuck me a buck?</DonateText>
   <DonateLink>https://buymeacoffee.com/mctylan</DonateLink>
   <Requires/>
-  <Config Name="Web Port" Target="PORT" Default="3000" Mode="" Description="HTTPS port. HTTP port (PORT+1) redirects to HTTPS" Type="Variable" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="Web Port" Target="3000" Default="3000" Mode="" Description="HTTPS port. HTTP port (PORT+1) redirects to HTTPS" Type="Variable" Display="always" Required="true" Mask="false">3000</Config>
   <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/haven" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/haven</Config>
   <Config Name="SERVER_NAME" Target="SERVER_NAME" Default="" Mode="" Description="Name shown in the UI" Type="Variable" Display="always" Required="true" Mask="false">My Haven</Config>
   <Config Name="ADMIN_USERNAME" Target="ADMIN_USERNAME" Default="" Mode="" Description="First account to register becomes admin" Type="Variable" Display="always" Required="true" Mask="false">admin</Config>
