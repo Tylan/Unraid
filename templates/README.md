@@ -6,7 +6,7 @@ A central repository for all Unraid OS Community Applications that I maintain.
 
 ***
 
-## FileRun ([ancsemi/Haven](https://github.com/ancsemi/Haven))
+## Haven ([ancsemi/Haven](https://github.com/ancsemi/Haven))
 > Haven is a self-hosted Discord alternative. Run it on your machine. Invite friends with a code. No cloud. No email signup. No tracking. Free forever.
 
 * **Unraid Support Thread:** [Unraid Forums](https://forums.unraid.net/topic/198511-support-tylan-haven/)
