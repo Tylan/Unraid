@@ -13,7 +13,7 @@
   <Overview>Haven is a self-hosted Discord alternative. Run it on your machine. Invite friends with a code. No cloud. No email signup. No tracking. Free forever.</Overview>
   <Category>Productivity: Network:Voip Network:Messenger</Category>
   <WebUI>https://[IP]:[PORT:3000]/</WebUI>
-  <TemplateURL>https://github.com/Tylan/Unraid/blob/main/templates/Haven.xml</TemplateURL>
+  <TemplateURL>https://github.com/Tylan/Unraid/blob/main/Haven.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Tylan/Unraid/master/img/Haven.png</Icon>
   <ExtraParams/>
   <PostArgs/>
